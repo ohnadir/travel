@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 const Header = (props:string) => {
   const navigate = useNavigate()
   return (
-    <div className="header" style={{color: "black"}}>
+    <div className="header" style={{color:`${props.color}`}}>
       <div>
         <p>Brand logo</p>
       </div>
