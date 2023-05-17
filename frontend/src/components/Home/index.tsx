@@ -2,6 +2,7 @@ import  { useContext} from 'react';
 import "./Home.scss"
 import { MyContext } from "../../App"
 import Header from "../Header"
+import Travel from '../Travel';
 
 const Home = () => {
     const [showArea]=useContext(MyContext)
@@ -16,6 +17,7 @@ const Home = () => {
             width:"100vw"
         }}>
             <Header color="white"></Header>
+            <Travel/>
         </div>
     </div>
   )

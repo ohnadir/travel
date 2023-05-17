@@ -1,5 +1,7 @@
 import "./Header.scss"
 import { useNavigate } from "react-router-dom"
+import React, { useContext } from "react";
+import { MyContext } from "../../App";
 const Header = (props:string) => {
   const navigate = useNavigate()
   return (
