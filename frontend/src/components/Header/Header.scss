@@ -1,0 +1,30 @@
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color: #eee;
+    height:50px;
+    padding:5px 20px;
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        li{
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .login{
+            font-weight: 600;
+            background-color: orange;
+            color: white;
+            border-radius: 4px;
+            padding: 6px 8px;
+            transition: all 0.2s ease ;
+        }
+        .login:hover{
+            opacity: 0.5;
+            color: black;
+        }
+    }
+}
